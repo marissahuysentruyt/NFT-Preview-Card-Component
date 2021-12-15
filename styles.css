@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: "Outfit", Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: hsl(217, 54%, 11%);
+}
+
+/* Colors
+Primary
+- Soft blue: hsl(215, 51%, 70%)
+- Cyan: hsl(178, 100%, 50%)
+
+Neutral
+- Very dark blue (main BG): hsl(217, 54%, 11%)
+- Very dark blue (card BG): hsl(216, 50%, 16%)
+- Very dark blue (line): hsl(215, 32%, 27%)
+- White: hsl(0, 0%, 100%)
+
+Sizes: 
+- Mobile: 375px
+- Desktop: 1440px
+*/
+
+@media only screen and (min-width: 1440px) {
+
+}
+
+@media only screen and (min-width: 1024px) {
+    
+}
+
+@media only screen and (min-width: 768px) {
+    
+}
