@@ -52,19 +52,20 @@ body {
     height: auto;
     background-color:hsl(216, 50%, 16%);
     border-radius: 8px;
+    z-index: 1;
 }
 
 .card_container .eq-container .view-container {
     /* border: 1px solid red; */
-    height: 280px;
+    height: 279px;
     border-radius: 8px;
-    background-color: rgba(0, 255, 247, 0.4);
+    opacity: 0;
     position: relative;
-    top: -50.5%;
+    top: -100%;
+    margin-bottom: -100%;
     padding: auto;
-    display: none;
-    z-index: 5;
     overflow: hidden;
+    z-index: 5;
 }
 
 .card_container .eq-container .view-container img {
@@ -74,9 +75,12 @@ body {
     overflow: hidden;
 }
 
-.card_container .eq-container img:hover {
-    display: none;
+.card_container .eq-container .view-container:hover {
+    background-color: rgba(0, 255, 247, 0.5);
+    transition: all 1000ms ease-out;
+    opacity: 1;
 }
+
 
 .text_container {
     background-color:hsl(216, 50%, 16%);
@@ -96,7 +100,7 @@ body {
 
 .text_container p {
     font-weight: 300;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .text_container p, 
