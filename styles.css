@@ -42,13 +42,11 @@ body {
 }
 
 .eq-container {
-    /* border: 1px solid red; */
-    background-color: hsl(216, 50%, 16%);
-    margin-bottom: 24px;
-    height: 
+    background-color:hsl(216, 50%, 16%);
+
 }
 
-.card_container img {
+.card_container .eq-container img {
     /* border: 1px solid red; */
     width: 100%;
     height: auto;
@@ -56,8 +54,33 @@ body {
     border-radius: 8px;
 }
 
+.card_container .eq-container .view-container {
+    /* border: 1px solid red; */
+    height: 280px;
+    border-radius: 8px;
+    background-color: rgba(0, 255, 247, 0.4);
+    position: relative;
+    top: -50.5%;
+    padding: auto;
+    display: none;
+    z-index: 5;
+    overflow: hidden;
+}
+
+.card_container .eq-container .view-container img {
+    background-color: transparent;
+    /* border: 1px solid red; */
+    transform: scale(0.2);
+    overflow: hidden;
+}
+
+.card_container .eq-container img:hover {
+    display: none;
+}
+
 .text_container {
     background-color:hsl(216, 50%, 16%);
+    margin-top: 24px;
     /* border: 1px solid red; */
 }
 
@@ -68,7 +91,7 @@ body {
 
 .text_container h2:hover {
     color: hsl(178, 100%, 50%);
-    transition: all 100ms ease-in;
+    transition: all 250ms ease-in-out;
 }
 
 .text_container p {
@@ -115,6 +138,8 @@ body {
     height: auto;
     margin-right: 5%;
     margin-bottom: -1%;
+    background-color:hsl(216, 50%, 16%);
+
 }
 
 .stats .stat2 img {
@@ -123,6 +148,8 @@ body {
     height: auto;
     margin-bottom: -1%;
     margin-right: 5%;
+    background-color:hsl(216, 50%, 16%);
+
 }
 
 .stats .stat1 {
@@ -175,7 +202,7 @@ body {
 
 .nft-footer p a:hover {
     color: hsl(178, 100%, 50%);
-    transition: all 100ms ease-in;
+    transition: all 250ms ease-in-out;
 }
 
 
@@ -186,7 +213,7 @@ footer {
 
 .attribution a { 
     color: hsl(228, 45%, 44%); 
-    transition: all 200ms ease-in-out;
+    transition: all 250ms ease-in-out;
     text-decoration: none;
 }
 
