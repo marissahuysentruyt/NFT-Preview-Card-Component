@@ -39,6 +39,7 @@ body {
     display: flex;
     flex-direction: column;
     padding: 24px;
+    box-shadow: 0px 20px 24px 15px #00000016;
 }
 
 .eq-container {
@@ -77,7 +78,7 @@ body {
 
 .card_container .eq-container .view-container:hover {
     background-color: rgba(0, 255, 247, 0.5);
-    transition: all 1000ms ease-out;
+    transition: all 150ms ease-out;
     opacity: 1;
 }
 
@@ -225,19 +226,4 @@ footer {
     color: hsl(178, 100%, 50%)
 }
 
-@media only screen and (min-width: 1440px) {
-    .card_container {
-        /* border: 1px solid red; */
-        width: 350px;
-        height: 596px;
-        
-    }
-}
 
-@media only screen and (min-width: 1024px) {
-    
-}
-
-@media only screen and (min-width: 768px) {
-    
-}
